@@ -1,0 +1,28 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #334155; 
+    width: 100%;
+    height: 8rem; 
+    color: white;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 3rem; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .socialIcons li a {
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcons li a:hover {
+    transform: scale(1.1); 
+  }
+  

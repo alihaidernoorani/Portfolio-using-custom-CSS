@@ -1,0 +1,90 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .textContainer {
+      width: 50%;
+      margin-top: 9rem;
+    }
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1f2937; 
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #374151; 
+    margin-bottom: 2rem;
+  }
+  
+  .highlight {
+    color: #2563eb; 
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .icon {
+    color: #4b5563; 
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #2563eb; 
+  }
+  
+  .imageContainer {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .imageContainer {
+      width: 50%;
+      margin-top: 0;
+    }
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,110 @@
+.aboutSection {
+    color: #4b5563; 
+    padding: 6rem 0;
+    text-align: center;
+  }
+  
+  .aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1f2937; 
+    margin-bottom: 1rem;
+  }
+  
+  .profileImage {
+    margin-bottom: 2.5rem;
+    border-radius: 50%;
+  }
+  
+  .textContent {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #374151; 
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .icon {
+    color: #4b5563; 
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #2563eb; 
+  }
+  
+  .skillsContainer {
+    padding: 4rem 1.25rem;
+    text-align: center;
+  }
+  
+  .skillsTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 2rem;
+  }
+  
+  .skillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .skillBarContainer {
+    width: 100%;
+  }
+  
+  .skillName {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillBarBackground {
+    background-color: #e5e7eb; 
+    border-radius: 9999px;
+    height: 0.75rem;
+    width: 100%;
+  }
+  
+  .skillBarFill {
+    background-color: #2563eb; 
+    height: 100%;
+    border-radius: 9999px;
+  }
+  
+  .skillPercent {
+    font-size: 0.875rem;
+    color: #374151;
+    margin-top: 0.25rem;
+  }
+  
